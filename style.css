@@ -131,8 +131,99 @@ html,body {
 }
 
 .elem img {
+    display: none;
     z-index: 999;
-    width: 50px;
-    height: 50px;
+    height: 140%;
     position: absolute;
+}
+
+#work button{
+    border:1px solid white;
+    background-color: black;
+    color: white;
+    margin: 3vw;
+    padding: .25rem .875rem;
+    border-radius: 9999px;
+    border-width: 1px;
+}
+
+#partner {
+    border: 1px solid white ;
+}
+
+#about {
+    padding: 10vw 5vw;
+    width: 100%;
+    background-color: black;
+    display: flex;
+    color: white;
+    justify-content: space-between;
+    align-items: center;
+    gap: 50px;
+    padding: 10vw 10vw;
+    padding-left: 40vw;
+}
+
+#imageabout img {
+    width: 15vw;
+}
+
+#textabout {
+    width: 25rem;
+}
+
+#textabout h5{
+    text-transform: uppercase;
+    opacity: .6;
+    margin-bottom: 10px;
+}
+
+#textabout p{
+    line-height: 1.7;
+    margin-bottom: 30px;
+}
+
+#textabout a{
+    padding: 12px 22px;
+    border: 1px solid white;
+    border-radius: 100px;
+    color: white;
+    font-size: 12px;
+    text-decoration: none;
+}
+
+#subscribe {
+    background-color: black;
+    color: white;
+    width: 100%;
+    padding: 1.25rem;
+}
+
+#yt h3{
+    opacity: .6;
+    text-transform: uppercase;
+}
+
+#yt a {
+    text-decoration: none;
+    color: white;
+    text-transform: uppercase;
+    font-size: 15px;
+    font-weight: 10px;
+}
+
+#yt {
+    padding-bottom: 8rem;
+}
+
+#social{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#social a{
+    text-decoration: none;
+    color: white;
+    text-transform: uppercase;
 }
